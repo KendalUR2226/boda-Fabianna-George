@@ -634,6 +634,44 @@
             font-size: 13px;
             letter-spacing: 1px;
         }
+        /* Efecto elegante para las fotos de la galería */
+            .gallery-grid img {
+                transition: transform 0.4s ease, box-shadow 0.4s ease;
+                cursor: pointer;
+            }
+
+            .gallery-grid img:hover {
+                transform: scale(1.03);
+                box-shadow: 0 10px 25px rgba(120, 80, 85, 0.22);
+            }
+            .gift-section {
+                    text-align: center;
+                    padding: 5px 30px;
+                    margin-top: 20px;
+                }
+
+                .gift-icon {
+                    font-size: 32px;
+                    margin-bottom: 10px;
+                }
+                            .gift-text {
+                max-width: 620px;
+                  margin: 20px auto 28px;
+                  color: #6f585c;
+                  font-size: 20px;
+                  line-height: 1.9;
+                  font-family: "Times New Roman", serif;
+                  font-style: italic;
+                  font-weight: 400;
+                            }
+
+            .gift-thanks {
+                color: #8b6b70;
+                font-size: 14px;
+                margin-top: 18px;
+                font-family: Georgia, "Times New Roman", serif;
+                font-style: italic;
+            }
     </style>
 </head>
 <body>
@@ -781,13 +819,17 @@
         </section>
 
         <!-- Galería de Fotos -->
-        <section>
+        <section style="margin-bottom: -10%;">
             <h2 class="section-title">El comienzo de nuestro para siempre</h2>
             <div class="divider"></div>
             <div class="gallery-grid">
                 <img src="Fotos_Boda_Fabi/2.jpeg" alt="Foto 1">
                 <img src="Fotos_Boda_Fabi/3.jpeg" alt="Foto 2">
+                <img src="Fotos_Boda_Fabi/4.jpeg" alt="Foto 3">
+                <img src="Fotos_Boda_Fabi/5.jpeg" alt="Foto 4">
+                <img src="Fotos_Boda_Fabi/6.jpeg" alt="Foto 5" style="display: block; margin: 0 50%;">
             </div>
+            <p style="font-size: 14px;color: #7a6265;margin: 10px auto 25px;max-width: 600px;line-height: 1.8;font-style: italic;text-align: center;"><span style="display: block;font-size: 12px;font-style: normal;letter-spacing: 2px;text-transform: uppercase;color: #a85f6a;margin-bottom: 8px;">Colosenses 3:14</span>“Y sobre todas estas cosas vestíos de amor, que es el vínculo perfecto.”</p>
         </section>
 
         <!-- Confirmación de Asistencia (RSVP) -->
@@ -795,8 +837,25 @@
             <h2 class="section-title">Asistencia</h2>
             <div class="divider"></div>
             <p style="font-size: 14px; color: #666; margin-bottom: 20px;">Tu presencia es lo más importante para nosotros. Esperamos tu confirmación</p>
-            <a href="https://wa.me/50688888888?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20la%20boda%20de%20George%20y%20Fabianna." target="_blank" class="btn btn-whatsapp">Confirmar por WhatsApp</a>
+            <a href="https://wa.me/50684717713?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20la%20boda%20de%20George%20y%20Fabianna." target="_blank" class="btn btn-whatsapp">Confirmar por WhatsApp</a>
         </section>
+
+        <section class="gift-section">
+    <div class="gift-icon">🎁</div>
+
+    <h2 class="section-title">Un detalle de amor</h2>
+    <div class="divider"></div>
+
+    <p class="gift-text">
+        Su presencia en nuestra boda será el mejor regalo. 
+        Pero si desean bendecirnos con otro obsequio, les agradeceremos 
+        sea en efectivo o al SINPE 87475586 o 84717713.
+    </p>
+
+    <p class="gift-thanks">
+        Gracias por acompañarnos y ser parte de este día tan especial. 🤍
+    </p>
+</section>
 
         <!-- Pie de página -->
         <footer>
